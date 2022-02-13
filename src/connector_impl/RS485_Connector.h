@@ -14,7 +14,7 @@ private:
 	int isEvenParity;
 	std::unordered_map < std::string, std::queue<char>> deviceFIFOs;
 	
-	static bool started;
+	bool started;
 
 public :
 
